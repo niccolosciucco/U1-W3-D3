@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <section id="main-section">
+      <header>
+        <h1 class="centerText">To Do List</h1>
+      </header>
+      <main>
+        <form>
+          <div class="centerText">
+            <label for="inputTask">Inserisci la tua task</label>
+            <input id="inputTask" type="text" required maxlength="20" />
+            <button class="button inputButton">Inserisci Task</button>
+          </div>
+        </form>
+        <article id="article-list">
+          <h6>Lista delle task:</h6>
+          <ul></ul>
+        </article>
+      </main>
+      <footer></footer>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

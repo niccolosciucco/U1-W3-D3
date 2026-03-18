@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(208, 214, 215);
+}
+
+#main-section {
+  width: 40%;
+  margin: 5em auto;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fafeef;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+form {
+  margin-top: 2em;
+  font-style: italic;
+}
+
+article {
+  width: 50%;
+  margin: 2em auto;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.crossText {
+  text-decoration: line-through;
+}
+
+.pointerCursor {
+  cursor: pointer;
+}
+
+.button {
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: #902c1c;
+}
+
+.inputButton {
+  background-color: #10490d;
+}
